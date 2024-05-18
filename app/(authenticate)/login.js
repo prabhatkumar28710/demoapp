@@ -48,7 +48,7 @@ const login = () => {
   };
   return (
     <SafeAreaView
-      style={{ flex: 1, backgroundColor: "white", alignItems: "center" }}
+      style={{ flex: 1, backgroundColor: "#cde1d0", alignItems: "center" }}
     >
       <View style={{ marginTop: 80 }}>
         <Text style={{ fontSize: 18, fontWeight: "600", color: "#0066b2" }}>
@@ -144,7 +144,7 @@ const login = () => {
             onPress={handleLogin}
             style={{
               width: 200,
-              backgroundColor: "#6699CC",
+              backgroundColor: "#47c681",
               padding: 15,
               borderRadius: 6,
               marginLeft: "auto",
